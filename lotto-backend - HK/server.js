@@ -7,6 +7,8 @@ const { Worker, isMainThread, parentPort, workerData } = require('worker_threads
 
 const app = express();
 
+
+
 // ─── 滿血開啟 CORS 破壁跨網域晶片 ───
 app.use(cors({
   origin: function (origin, callback) { callback(null, true); },
@@ -853,11 +855,11 @@ worker.on('message', (msg) => {
 
 // ─── 【神之手：海選大結局四國語言全對齊發射晶片】 ───
  const backLangB = cfg.lang || "zh";
- const txtVipTitleB = {
-  zh: `【VIP融合大腦分選竣工】中繼站本次海選實時通過總數：\n\${liveScannedCount} 組 \n \n【當前交付全局隨機最優解鎖組合（有效瓦解死鎖，100%保證分散多樣性！）】：\n`,
-  en: `[VIP Core Fusion Filter Completed] Total qualified pool verified: \n\${liveScannedCount} Sets \n \n[Current Unlocked Optimal Dispersed Combinations (100% Diversity Guaranteed)]: \n`,
-  ko: `【VIP融合大腦分選竣工】中繼站本次海選即時通過總數：\n\${liveScannedCount} 組 \n \n【當前交付全域隨機最優解鎖組合（有效瓦解死鎖，100%保證分散多樣性！）】：\n`,
-  ja: `【VIP融合大脑分选竣工】中继站本次海选实时通过总数：\n\${liveScannedCount} 组 \n \n【当前交付全局随机最优解锁组合（有效瓦解死锁，100%保证分散多样性！）】：\n`
+const txtVipTitleB = {
+    zh: `【VIP融合大腦分選竣工】中繼站本次海選實時通過總數：\n${liveScannedCount} 組 \n \n【當前交付全局隨機最優解鎖組合（有效瓦解死鎖，100%保證分散多樣性！）】：\n`,
+    en: `[VIP Core Fusion Filter Completed] Total qualified pool verified: \n${liveScannedCount} Sets \n \n[Current Unlocked Optimal Dispersed Combinations (100% Diversity Guaranteed)]: \n`,
+    ko: `【VIP融合大腦分選竣工】中繼站本次海選即時通過總數：\n${liveScannedCount} 組 \n \n【當前交付全域隨機最優解鎖組合（有效瓦解死鎖，100%保證分散多樣性！）】：\n`,
+    ja: `【VIP融合大脑分选竣工】中继站本次海选实时通过总数：\n${liveScannedCount} 组 \n \n【当前交付全局随机最优解锁组合（有效瓦解死锁，100%保证分散多样性！）】：\n`
 }[backLangB] || "【VIP融合大腦分選竣工】";
    
  try {
