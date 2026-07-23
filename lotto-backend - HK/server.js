@@ -621,7 +621,7 @@ finalOutputCombs.push(`${txtRandHead} [${indexStr}${txtRandMid}\n${formattedOutp
 zh: `【VIP直通大竣工】本次攪珠海選免扣點實時通過總數：\n${totalTheoreticalCombs}組 \n \n【當前交付解鎖組合（已完美拉滿物理互斥，100%保證分散隔離！）】：\n`,
 en: `[VIP Turbo Completed] Total seamless matching pool options: \n${totalTheoreticalCombs} Sets \n \n[Current Unlocked Combinations (100% Mutually Exclusive & Well Dispersed)]: \n`,
 ko: `【VIP直通大竣工】本次開獎海選免扣點即時通過總數：\n${totalTheoreticalCombs}組 \n \n【當前交付解鎖組合（已完美拉滿聰明包牌，100%保證分散隔離！）】：\n`,
-ja: `【VIP直通大竣工】本次海选免扣点实时通过总数：\n${totalTheoreticalCombs}组 \n \n【当前交付解锁组合（已完美拉满物理互斥，100%保证分散隔离！）】：\n`
+ja: `【VIP直通大竣工】本次海选免扣点实时通过总数：\n${totalTheoreticalCombs}组 \n \n【当前交付解锁组合（已完美拉满物理互斥，100%保证分散隔离！）】：\n`};
 
 
 // ─── 【神之手：模式標籤四國語言動態交卷晶片】100% 遵循全新語系定義對帳 🎯 ───
